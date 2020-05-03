@@ -34,4 +34,10 @@ func main(){
 	closed := true
 	fmt.Printf("File ditutup %t \n", closed)
 
+	// %b -> base 2
+	fmt.Printf("Basis dua dari 88 : %b\n", 88)
+
+	x := 6.7
+	y := 9.9
+	fmt.Printf("Perkalian x * y : %0.3f", x*y)
 }
